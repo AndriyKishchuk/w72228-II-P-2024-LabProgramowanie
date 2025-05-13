@@ -27,8 +27,8 @@ setInterval(() => {
     const hour=date.getHours();
     const minute=date.getMinutes();
     const seconds=date.getSeconds();
-    document.getElementById('clock')
-      clock.innerHTML = `${hour}:${minute}:${seconds}`
+    const clock=document.getElementById('clock')
+    clock.innerHTML = `${hour}:${minute}:${seconds}`
 }, 1000);
 //Zadanie 5
 const guestNumberElement=document.getElementById('guess')
@@ -44,7 +44,7 @@ function Trys(){
             alert("Liczba jest mniejsza")
         }
         else if(value<number){
-            alert("Liczba jest wieksza")
+            lert("Liczba jest wieksza");
         } 
     }
 
