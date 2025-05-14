@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .active {
+      background-color: lightblue;
+    }
+    .hidden {
+      display: none;
+    }
+    </style>
+</head>
+<body>
+    <h2>Zadanie 1</h2>
+    <input id="silnia">
+    <button onclick="obliczSilnie()">Oblicz</button>
+    <p id="wynik"></p>
+
+     <h2>Zadanie 2</h2>
+    <button class="color-btn" onclick="zmienKolor(this)">Przycisk 1</button>
+    <button class="color-btn" onclick="zmienKolor(this)">Przycisk 2</button>
+    <button class="color-btn" onclick="zmienKolor(this)">Przycisk 3</button>
+
+    <h2>Zadanie 3</h2>
+     <button onclick="Widocznosc()">Pokaż/Ukryj element</button>
+     <div id="ukrytyElement">Jestem ukrywalnym elementem!</div>
+
+    <h2>Zadanie 4</h2>
+        <input type="text" id="text" placeholder="Wpisz coś">
+        <button id="dodaj">Dodaj do listy</button>
+        <ul id="lista"></ul>
+
+    <h2>Zadanie 5</h2>
+    <input type="text" id="imie" placeholder="Imię">
+    <input type="text" id="nazwisko" placeholder="Nazwisko">
+    <button id="dodajTabel">Dodaj do tabeli</button>
+     <table id="tabela">
+        <tr>
+          <th>Imię</th>
+          <th>Nazwisko</th>
+        </tr>
+    </table>
+    <script src="lab6.js"></script>
+</body>
+</html>
