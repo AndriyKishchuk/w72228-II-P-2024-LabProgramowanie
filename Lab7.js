@@ -1,5 +1,6 @@
 /*Zadanie 2*/
 const imie_1=document.getElementById("imie")
+const nameError=document.querySelector();
 imie_1.addEventListener('blur',()=>{
     const imie=imie_1.value
     if(imie){
@@ -8,6 +9,7 @@ imie_1.addEventListener('blur',()=>{
     else{
         alert("Witaj!");
     }
+    checkMinimumLength(imie_1,nameError)
 });
 /*Zadanie 3*/
 const hasloInput = document.querySelector("#haslo");
